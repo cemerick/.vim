@@ -35,6 +35,18 @@ inoremap <silent> <C-S>         <C-O>:update<CR>
 " <esc> turns off search highlighting temporarily
 nnoremap <ESC> :noh<ESC>
 
+" Wrapped lines goes down/up to next row, rather than next line in file.
+nnoremap j gj
+nnoremap k gk
+" change split focus with <tab>
+nnoremap <Tab> <C-W>w
+nnoremap <S-Tab> <C-W>W
+" cycle through buffers within a split
+" TODO it'd be nice if C-Tab could be hit repeatedly to bounce back and forth,
+"      instead of this just stepping through a fixed list of buffers
+map <C-Tab> :bprevious<CR>
+map <C-S-Tab> :bnext<CR>
+
 
 """"""""""""""""""""""""""" pretty
 colorscheme desert
