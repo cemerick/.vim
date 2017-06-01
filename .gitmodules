@@ -16,3 +16,6 @@
 [submodule "pack/cemerick/start/vim-signify"]
 	path = pack/cemerick/start/vim-signify
 	url = https://github.com/mhinz/vim-signify.git
+[submodule "pack/cemerick/start/vim-markdown-folding"]
+	path = pack/cemerick/start/vim-markdown-folding
+	url = https://github.com/nelstrom/vim-markdown-folding.git
