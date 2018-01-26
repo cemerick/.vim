@@ -47,6 +47,7 @@ nnoremap <S-Tab> <C-W>W
 map <C-Tab> :bprevious<CR>
 map <C-S-Tab> :bnext<CR>
 
+nmap <Cr> <C-^>
 
 """"""""""""""""""""""""""" pretty
 colorscheme desert
